@@ -16,7 +16,7 @@ export async function GET() {
   } catch (error) {
     console.error(`Error in GET ${process.env.TOKEN_INFO_URL}:`, error);
     return Response.json(
-      { error: "Failed to fetch token information" },
+      { error: "Failed to fetch token information",TOKEN_INFO_URL:process.env.TOKEN_INFO_URL },
       { status: 500 }
     );
   }
