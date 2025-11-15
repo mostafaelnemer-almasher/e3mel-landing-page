@@ -40,10 +40,10 @@ const Countdown = ({ targetDate }: { targetDate: Date }) => {
         { label: "Seconds", value: String(timeLeft.seconds).padStart(2, "0") },
       ].map((item) => (
         <div key={item.label} className="flex flex-col items-center">
-          <span className="text-xs sm:text-xl md:text-2xl font-semibold text-e3mel-blue">
+          <span className="text-4xl md:text-6xl font-semibold text-e3mel-blue">
             {item.value}
           </span>
-          <span className="text-[7px] sm:text-xs text-black tracking-wider uppercase">
+          <span className="text-base text-black tracking-wider uppercase">
             {item.label}
           </span>
         </div>
