@@ -242,7 +242,7 @@ export const RESOURCES_FOOTER_LINKS: NavLink[] = [
 
 export const ROADMAP_ITEMS: RoadmapItem[] = [
   {
-    title: "Q4 2025",
+    title: "Q4 2025 t",
     goal: "Seed round launch, token integration into platform",
     isActive: true,
   },
