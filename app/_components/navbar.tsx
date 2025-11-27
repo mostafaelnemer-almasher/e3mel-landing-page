@@ -111,7 +111,7 @@ const MobileNavbar = ({ activeSection }: { activeSection: string }) => {
       >
         <Link href="/">
           <Image
-            src="/images/e3mel-logo.png"
+            src="/images/E3-Blockraise-2.svg"
             alt="E3mel Logo"
             width={60}
             height={60}
@@ -138,7 +138,7 @@ const MobileNavbar = ({ activeSection }: { activeSection: string }) => {
             <SheetTitle className="pt-2.5">
               <Link href="/">
                 <Image
-                  src="/images/e3mel-logo.png"
+                  src="/images/E3-Blockraise-2.svg"
                   alt="E3mel Logo"
                   width={60}
                   height={60}
