@@ -242,12 +242,12 @@ export const RESOURCES_FOOTER_LINKS: NavLink[] = [
 
 export const ROADMAP_ITEMS: RoadmapItem[] = [
   {
-    title: "Q4 2025 - Q1 2026",
+    title: "Q4 2025",
     goal: "Seed round launch, token integration into platform",
     isActive: true,
   },
   {
-    title: "Q1-Q2 2026",
+    title: "Q1 2026",
     goal: "Exchange listings, governance beta",
     isActive: false,
   },
@@ -257,7 +257,7 @@ export const ROADMAP_ITEMS: RoadmapItem[] = [
     isActive: false,
   },
   {
-    title: "Q4 2026 - 2027",
+    title: "2027",
     goal: "Africa/Latin America partnerships and enterprise licensing",
     isActive: false,
   },
