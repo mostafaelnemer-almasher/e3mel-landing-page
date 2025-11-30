@@ -67,7 +67,7 @@ export const metadata: Metadata = {
       {
         url: `${
           process.env.NEXT_PUBLIC_APP_URL || "https://e3mel.com"
-        }/images/e3mel-logo.png`,
+        }/images/E3-Blockraise-2.svg`,
         width: 1200,
         height: 630,
         alt: "E3MEL Token Logo",
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
       {
         url: `${
           process.env.NEXT_PUBLIC_APP_URL || "https://e3mel.com"
-        }/images/e3mel-logo.png`,
+        }/images/E3-Blockraise-2.svg`,
         width: 1200,
         height: 630,
         alt: "E3MEL Token - The Future of Digital Currency",

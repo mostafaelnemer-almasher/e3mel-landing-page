@@ -41,7 +41,7 @@ const Footer = () => {
           >
             <Link href="/">
               <Image
-                src="/images/e3mel-logo.png"
+                src="/images/E3-Blockraise-2.svg"
                 alt="E3mel Logo"
                 width={100}
                 height={100}
