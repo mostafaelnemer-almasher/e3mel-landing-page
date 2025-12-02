@@ -518,6 +518,6 @@ export const CHAINLINK_PRICE_FEEDS: Record<string, ChainlinkPriceFeed> = {
 } as const;
 export type PriceFeedKey = keyof typeof CHAINLINK_PRICE_FEEDS;
 
-export const BUY_TOKEN_URL = "https://token.e3-business.com";
+export const BUY_TOKEN_URL = "https://e3-token.e3-blockraise.com";
 export const TOKEN_SYMBOL = "E3B";
 export const TOKEN_NAME = "E3mel Business Token";
