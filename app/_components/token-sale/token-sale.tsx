@@ -21,13 +21,13 @@ export default function TokenSaleForm({
 }: TokenSaleFormProps) {
   // const tokenNextPrice =
   //   Number(process.env.NEXT_PUBLIC_TOKEN_NEXT_PRICE) || 0.012;
-  const tokenNextPrice =data?.response ? Number(data.response.next_price) : Number(process.env.NEXT_PUBLIC_TOKEN_NEXT_PRICE) || 0.012;
+  const tokenNextPrice =data?.response ? Number(data.response.next_price) : Number(process.env.NEXT_PUBLIC_TOKEN_NEXT_PRICE) || 0.000;
   const tokenListingPrice =
-    Number(process.env.NEXT_PUBLIC_TOKEN_LISTING_PRICE) || 0.75;
+    Number(process.env.NEXT_PUBLIC_TOKEN_LISTING_PRICE) || 0.000;
   const holderCount = Number(process.env.NEXT_PUBLIC_HOLDER_COUNT) || 12136;
   const showHolderCount =
     process.env.NEXT_PUBLIC_SHOW_HOLDER_COUNT?.toLowerCase() === "true";
-  const tokenPrice = data?.response ? Number(data.response.price) : 0.01;
+  const tokenPrice = data?.response ? Number(data.response.price) : 0.000;
   const nextPricePercentage = (
     ((tokenNextPrice - tokenPrice) / tokenPrice) *
     100
