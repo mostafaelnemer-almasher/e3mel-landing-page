@@ -19,8 +19,9 @@ export default function TokenSaleForm({
   data,
   error,
 }: TokenSaleFormProps) {
-  const tokenNextPrice =
-    Number(process.env.NEXT_PUBLIC_TOKEN_NEXT_PRICE) || 0.012;
+  // const tokenNextPrice =
+  //   Number(process.env.NEXT_PUBLIC_TOKEN_NEXT_PRICE) || 0.012;
+  const tokenNextPrice =data?.response ? Number(data.response.next_price) : Number(process.env.NEXT_PUBLIC_TOKEN_NEXT_PRICE) || 0.012;
   const tokenListingPrice =
     Number(process.env.NEXT_PUBLIC_TOKEN_LISTING_PRICE) || 0.75;
   const holderCount = Number(process.env.NEXT_PUBLIC_HOLDER_COUNT) || 12136;
