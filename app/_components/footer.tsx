@@ -74,7 +74,10 @@ const Footer = () => {
             {/*  rel="noopener noreferrer"*/}
             {/*  className="text-base text-white whitespace-pre-line hover:underline"*/}
             {/*>*/}
+            <span className="text-base text-white/60">
               {OFFICE_ADDRESS}
+            </span>
+
             {/*</Link>*/}
           </motion.div>
 
