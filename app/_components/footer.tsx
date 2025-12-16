@@ -68,31 +68,31 @@ const Footer = () => {
             className="flex flex-row space-x-3 items-center justify-start"
           >
             <BuildingOfficeIcon className="text-white size-6" />
-            <Link
-              href={OFFICE_MAP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base text-white whitespace-pre-line hover:underline"
-            >
+            {/*<Link*/}
+            {/*  href={OFFICE_MAP_LINK}*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noopener noreferrer"*/}
+            {/*  className="text-base text-white whitespace-pre-line hover:underline"*/}
+            {/*>*/}
               {OFFICE_ADDRESS}
-            </Link>
+            {/*</Link>*/}
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-row space-x-3 items-center justify-start"
-          >
-            <PhoneCallIcon className="text-white size-6" />
-            <Link
-              href={`tel:${PHONE_NUMBER}`}
-              className="text-base text-white hover:underline"
-            >
-              {PHONE_NUMBER}
-            </Link>
-          </motion.div>
+          {/*<motion.div*/}
+          {/*  initial={{ opacity: 0, x: -30 }}*/}
+          {/*  whileInView={{ opacity: 1, x: 0 }}*/}
+          {/*  viewport={{ once: true }}*/}
+          {/*  transition={{ duration: 0.6, delay: 0.6 }}*/}
+          {/*  className="flex flex-row space-x-3 items-center justify-start"*/}
+          {/*>*/}
+          {/*  <PhoneCallIcon className="text-white size-6" />*/}
+          {/*  <Link*/}
+          {/*    href={`tel:${PHONE_NUMBER}`}*/}
+          {/*    className="text-base text-white hover:underline"*/}
+          {/*  >*/}
+          {/*    {PHONE_NUMBER}*/}
+          {/*  </Link>*/}
+          {/*</motion.div>*/}
 
           <motion.div
             initial={{ opacity: 0, x: -30 }}
