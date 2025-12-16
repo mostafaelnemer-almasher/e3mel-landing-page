@@ -461,7 +461,8 @@ export const COOKIES_POLICY: CookiesPolicyItem[] = [
 export const FOOTER_TEXT =
   "E3 Business Academy is a leading educational institution offering an integrated training experience to participants in more than 80 countries, with certified credentials, to succeed in the world of entrepreneurship and enter the job market with strength.";
 export const OFFICE_ADDRESS =
-  "Office 705 - Alhawai tower - Sheikh Zayed Road - Dubai - United Arab Emirates";
+  // "Office 705 - Alhawai tower - Sheikh Zayed Road - Dubai - United Arab Emirates";
+  "World Trade Center 200-B, Suite 80 Calle 53 Este, Marbella Panama, Panama";
 export const OFFICE_MAP_LINK = "https://maps.app.goo.gl/ajK8WGk1Zrcm7oYz6";
 export const PHONE_NUMBER = "+971545045431";
 export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
