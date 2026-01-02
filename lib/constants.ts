@@ -467,41 +467,41 @@ export const OFFICE_ADDRESS =
 export const OFFICE_MAP_LINK = "https://maps.app.goo.gl/ajK8WGk1Zrcm7oYz6";
 export const PHONE_NUMBER = "+971545045431";
 export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
-  {
-    href: "https://www.facebook.com/e3melbusiness",
-    icon: FacebookLogoIcon,
-    platform: "Facebook",
-  },
-  {
-    href: "https://www.instagram.com/e3melbusinessacademy/",
-    icon: InstagramLogoIcon,
-    platform: "Instagram",
-  },
-  {
-    href: "https://www.linkedin.com/company/e3melbusinesscommunity/",
-    icon: LinkedinLogoIcon,
-    platform: "LinkedIn",
-  },
-  {
-    href: "https://x.com/E3melBusiness",
-    icon: XLogoIcon,
-    platform: "X",
-  },
-  {
-    href: "https://www.tiktok.com/@e3melbusinessacademy",
-    icon: TiktokLogoIcon,
-    platform: "TikTok",
-  },
-  {
-    href: "https://www.youtube.com/c/E3melBusinessArabic",
-    icon: YoutubeLogoIcon,
-    platform: "YouTube",
-  },
-  {
-    href: "https://www.snapchat.com/add/e3melbusinesss",
-    icon: SnapchatLogoIcon,
-    platform: "Snapchat",
-  },
+  // {
+  //   href: "https://www.facebook.com/e3melbusiness",
+  //   icon: FacebookLogoIcon,
+  //   platform: "Facebook",
+  // },
+  // {
+  //   href: "https://www.instagram.com/e3melbusinessacademy/",
+  //   icon: InstagramLogoIcon,
+  //   platform: "Instagram",
+  // },
+  // {
+  //   href: "https://www.linkedin.com/company/e3melbusinesscommunity/",
+  //   icon: LinkedinLogoIcon,
+  //   platform: "LinkedIn",
+  // },
+  // {
+  //   href: "https://x.com/E3melBusiness",
+  //   icon: XLogoIcon,
+  //   platform: "X",
+  // },
+  // {
+  //   href: "https://www.tiktok.com/@e3melbusinessacademy",
+  //   icon: TiktokLogoIcon,
+  //   platform: "TikTok",
+  // },
+  // {
+  //   href: "https://www.youtube.com/c/E3melBusinessArabic",
+  //   icon: YoutubeLogoIcon,
+  //   platform: "YouTube",
+  // },
+  // {
+  //   href: "https://www.snapchat.com/add/e3melbusinesss",
+  //   icon: SnapchatLogoIcon,
+  //   platform: "Snapchat",
+  // },
   {
     href: "mailto:e3-blockraise.com",
     icon: EnvelopeIcon,
