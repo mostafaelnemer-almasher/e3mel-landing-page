@@ -4,6 +4,7 @@ import {
   InstagramLogoIcon,
   LinkedinLogoIcon,
   SnapchatLogoIcon,
+  EnvelopeIcon,
   TiktokLogoIcon,
   XLogoIcon,
   YoutubeLogoIcon,
@@ -500,6 +501,11 @@ export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
     href: "https://www.snapchat.com/add/e3melbusinesss",
     icon: SnapchatLogoIcon,
     platform: "Snapchat",
+  },
+  {
+    href: "mailto:e3-blockraise.com",
+    icon: EnvelopeIcon,
+    platform: "Email",
   },
 ];
 
