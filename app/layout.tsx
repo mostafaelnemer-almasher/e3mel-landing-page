@@ -8,7 +8,7 @@ import Navbar from "./_components/navbar";
 import QueryProvider from "@/providers/query-provider";
 import RainbowKitProvider from "@/providers/rainbowkit-provider";
 import { WagmiProviderWrapper } from "@/providers/wagmi";
-
+import Script from "next/script";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -157,6 +157,23 @@ export default async function RootLayout({
             </WagmiProviderWrapper>
           </QueryProvider>
         </SmoothScroll>
+        <Script
+            id="tawk-to"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+               var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/695a30db59b3a3197b8893d6/1je44tnc2';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+              })();
+            `,
+            }}
+        />
       </body>
     </html>
   );
