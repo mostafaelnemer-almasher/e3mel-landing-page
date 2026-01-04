@@ -503,7 +503,7 @@ export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
   //   platform: "Snapchat",
   // },
   {
-    href: "mailto:e3-blockraise.com",
+    href: "mailto:info@e3-blockraise.com",
     icon: EnvelopeIcon,
     platform: "Email",
   },
