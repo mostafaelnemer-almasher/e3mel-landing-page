@@ -5,6 +5,7 @@ import {
   LinkedinLogoIcon,
   SnapchatLogoIcon,
   EnvelopeIcon,
+  ChatIcon,
   TiktokLogoIcon,
   XLogoIcon,
   YoutubeLogoIcon,
@@ -506,6 +507,11 @@ export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
     href: "mailto:info@e3-blockraise.com",
     icon: EnvelopeIcon,
     platform: "Email",
+  },
+  {
+    href: "https://tawk.to/chat/695a30db59b3a3197b8893d6/1je44tnc2",
+    icon: ChatIcon,
+    platform: "Chat",
   },
 ];
 
