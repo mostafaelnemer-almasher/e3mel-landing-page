@@ -240,7 +240,7 @@ export const COMPANY_FOOTER_LINKS: NavLink[] = [
 
 export const RESOURCES_FOOTER_LINKS: NavLink[] = [
   // { label: "Whitepaper", href: "/docs/whitepaper.pdf" },
-  { label: "Whitepaper", href: "#" },
+  { label: "Whitepaper", href: "/docs/whitepaper--ver1.pdf" },
 ];
 
 export const ROADMAP_ITEMS: RoadmapItem[] = [
